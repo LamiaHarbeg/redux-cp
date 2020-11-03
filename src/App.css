@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  font-size: 1.4rem;
+  background: white;
+  cursor: pointer;
+}
+h1,
+h2 {
+  color: #73204f;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.mb-3 {
+  margin-left: 20px;
+}
+
+::placeholder {
+  color: #f2a899;
+  font-size: 17px;
+}
